@@ -1,0 +1,12 @@
+body {
+    color: green;
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+}
+section {
+    border: inherit;
+}
+div {
+    border: inherit;
+}

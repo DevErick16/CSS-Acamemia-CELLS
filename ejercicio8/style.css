@@ -1,0 +1,8 @@
+div {
+    border: 1px dotted gray;
+
+    border-radius: 25px;
+    border-radius: 25% 50%; /*primer formato*/
+    border-radius: 50px 25px 10px; /*segundo formato*/
+    border-radius: 25px 0px 15px 50px; /*tercer formato*/
+}

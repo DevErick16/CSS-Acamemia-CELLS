@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Diseño responsivo con validacion</title>
+</head>
+<body>
+    <main class="main-container">
+    <section class="section-one">
+        <h1 class="title">INFORMACION DE CONTACTO</h1>
+        <p>info.contact@gmail.com</p>
+        <p>+1(585)902-8665</p>
+    </section>
+    <section class="section-two">
+        <form class="form-container">
+            <h3 class="msg">Envia un mensaje</h3>
+            <label for="name">Nombres *</label><br>
+            <input type="text" name="name" class="input" required><br>
+
+            <label for="tel">Telefono/ celular</label><br>
+            <input type="tel" name="tel" class="input"><br>
+
+            <label for="mail">Correo electronico *</label><br>
+            <input type="email" name="mail" class="input" required><br>
+
+            <label for="msg">Mensaje *</label><br>
+            <textarea name="msg" id="" cols="35px" rows="1" required></textarea><br>
+            <div class="button-container">
+                <button type="submit"> Enviar Mensaje</button>
+            </div>
+            
+        </form>
+    </section>
+</main>
+</body>
+</html>
